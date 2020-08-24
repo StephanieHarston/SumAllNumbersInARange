@@ -5,7 +5,6 @@ function sumAll(arr) {
   let sum;
   for (let i = smallNum+1; i < bigNum; i++) {
      newArr.push(i)
-     newArr.sort((a,b) => a-b)
     sum = newArr.reduce((a,b) => a+b)
 }
 
